@@ -7,7 +7,8 @@
     <title>Kombi Cofee</title>
     <style>
         *{
-            margin: 5px !important;
+            margin: 15px 25px 0 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         body{
             background-color: #ffe7b9;
@@ -15,38 +16,27 @@
         h1{
             display:none;
         }
-        .imgLogo{
-            margin-left: 40px;
-            margin-top: 20px;
-        }
-        /* #menu{
-            text-align: center;
-            margin-top: 10px;
-        } */
-        #menu ul{
-            margin: 0;
-        }
-        #menu li{
+    
+        #menu ul li{
             text-decoration: none;
             display: inline;
+            margin: 0 10px !important;
         }
-        #banner{
+        #banner img{
             text-align: center;
-            background-size: 100% 100%;
+            width:100%;
         }
-        p{
-            color: #947e4f;
-        }
-        #conteudo{
-            margin: 10px 10px 10px 50px ;
-            border-color: black;
+        .titulo{
+            color: #947e4f ;
+            font-size: 20px;
             
         }
+    
     </style>
 </head>
 <body>
     <h1>Kombi Cofee</h1>
-    <div class="imgLogo">
+    <div>
         <img src="images/images/logo_kombi_coffee.png" alt="Logo da Kombi Coffee" title="Logo do site">
     </div>
     <div id="menu">
@@ -58,18 +48,20 @@
             <li>CONTATO</li>
         </ul>
     </div>
-    <div id="conteudo">
-        <p>O Café que chega até você!</p>
+    <div>
+        <p class="titulo">O Café que chega até você!</p>
         <div id="banner">
             <img src="images/images/banner.jpg" alt="Imagem do café Kombi Coffe" title="Cafés super selecionados e com muito mais sabor">
         </div>
-        <p>Escolha o seu café</p>
+        <p class="titulo">Escolha o seu café</p>
         <p>Hoje em dia, café bom não é só aquele feito no coador de pano que nossas avós faziam 
             - um novo mundo se abre para nós em matéria de tipos de grãos, procedência, tipos de 
             torras e jeitos de preparar a bebida, que é tão popular na mesa dos brasileiros.</p>
-        <p>Onde encontrar a loja</p>
+        <p class="titulo">Onde encontrar a loja</p>
         <p>O Kombi Coffee é móvel. Veja onde você pode encontrar o seu carro.</p>
+        <hr>
+        <p>Copyright</p>
     </div>
-    <div id="rodape">Copyright</div>
+   
 </body>
 </html>
