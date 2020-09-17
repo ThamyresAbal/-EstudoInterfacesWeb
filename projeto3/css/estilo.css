@@ -122,6 +122,13 @@ footer p{
     margin-top: 10px;
     text-align: right;
 }
+.aviso{
+    background-color: #532d24;
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    color: white;
+}
 .onde, .escolha{
     display: inline-block;
     width: 49%;
