@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kombi Coffee é uma cafeteria intinerante que é capaz de levar o melhor do mercado cafeeiro até a seu paladar.">
-    <link src="css/reset.css" rel='stylesheet' type='text/css'>
-    <link src="css/estilo.css" rel='stylesheet' type='text/css'>
+    <link href="css/reset.css" rel='stylesheet' type='text/css'>
+    <link href="css/estilo.css" rel='stylesheet' type='text/css'>
     <title>Kombi Cofee</title>
 
 <body>
@@ -15,26 +15,28 @@
     </div>
     <div id="menu">
         <ul>
-            <li>HOME |</li>
-            <li>LOCAL |</li>
-            <li><a href ="cardapio.html">CARDÁPIO |</a></li>
-            <li>EVENTOS |</li>
-            <li><a href ="contato.html">CONTATO</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li>LOCAL</li>
+            <li><a href="cardapio.html">CARDÁPIO</a></li>
+            <li>EVENTOS</li>
+            <li><a href="contato.html">CONTATO</a></li>
         </ul>
     </div>
-    <divid="banner">
-        <p class="titulo">O Café que chega até você!</p>
-        <img src="images/banner.jpg" alt="Imagem do café Kombi Coffe" title="Cafés super selecionados e com muito mais sabor">
-    </div>
+    
     <div>
-       <form>
-           <label for="nomeContato">Nome: </label>
-           <input type="text" name="nomeContato" id="nomeContato" placeholder="Digite seu nome.">
-           <label for="emailContato">E-mail: </label>
-           <input type="email" name="emailContato" id="emailContato" placeholder="Digite seu e-mail.">
-           <label for="mensagemContato">Mensagem</label>
-            <textarea name= "mensagemContato" id="mensagemContato" placeholder="Digite seu texto aqui." cols="50" rows="5"></textarea>
+        <p class="titulo">O Café que chega até você!</p>
+        <img class="banner" src="images/banner.jpg" alt="Imagem do café Kombi Coffe" title="Cafés super selecionados e com muito mais sabor">
+    <div>
+        <form>
+            <label for="nomeContato">Nome: </label>
+            <input type="text" name="nomeContato" id="nomeContato" placeholder="Digite seu nome." required>
+            <label for="emailContato">E-mail: </label>
+            <input type="email" name="emailContato" id="emailContato" placeholder="Digite seu e-mail." required>
+            <label for="mensagemContato">Mensagem</label>
+            <textarea name= "mensagemContato" id="mensagemContato" placeholder="Digite seu texto aqui." cols="50" rows="5" required></textarea>
+            <input type="submit">
         </form>
+    </div>
     </div>
     <hr>
     <p>Copyright</p>

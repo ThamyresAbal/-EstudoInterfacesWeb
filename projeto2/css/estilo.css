@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
 *{
-    margin: 15px 25px 0 25px !important;
+    margin: 10px 50px 20px 50px !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black !important;
+    line-height: 20px;
 }
 body{
     background-color: #ffe7b9 ;
@@ -11,20 +13,72 @@ h1{
     font-family: 'Syne', sans-serif;
     display:none;
 }
-
-#menu ul li{
-    text-decoration: none ;
-    display: inline ;
-    margin: 0 10px ;
+div, #menu li, #nomeColuna li{
+    align: center !important;
 }
-#banner img{
-    text-align: center;
-    /* width:100%; */
+#menu ul li, #nomeColuna li, .descicao, .preco{
+    list-style-type: none ;
+    display: inline ;
+}
+#banner{
+    text-align: left !important;
 }
 .titulo{
     color: #947e4f ;
     font-size: 2em;
 }
 a{
-    margin: 0% !important;
+    margin: 0 !important;
+    text-decoration: none;
+    color: black;
+}
+/* .formulario{
+    display: flexbox;
+    justify-content: center;
+    border: black !important;
+} */
+form{
+    width: 70%;
+    margin: 0 auto !important;
+    border-radius: 10px;
+    border:1px solid white;
+    background-color: ivory;
+    padding: 10px;
+}
+input, textarea, label{
+    margin-left: 0 !important;
+    width: 98%;
+    border-radius: 5px;
+}
+input{
+    height: 25px;
+}
+hr{
+    font-size: 2px solid black !important;
+}
+.tipos, .tipo, .tipo3, .descricao, .preco, strong{
+    margin: 0 auto !important;
+}
+.tipo, .tipo3{
+    display: inline-block;
+    width: 32% ;
+    font-size: 1em;
+}
+.tipo3{
+    text-align: center;
+}
+.aviso{
+    background-color: #dcb0a1;
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+}
+input[type = 'submit']{
+    height: 30px;
+    background-color: #dcb0a1;
+    font-weight: bold;
+    font-size: 1em;
+}
+p{
+    font-size: 1em ;
 }
