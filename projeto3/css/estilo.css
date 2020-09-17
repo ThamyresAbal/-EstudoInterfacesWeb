@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+*{
+    /* border: 1px solid black ; */
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif, 'Syne', sans-serif;    
+}
+body{
+    background-color: whitesmoke ;
+}
+#container{
+    margin: auto;  
+    width: 940px;
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: white ;
+    text-align: center;
+}
+h1{ 
+    display:none;
+}
+nav li{
+    list-style-type: none ;
+    display: inline-block;
+    width: 15%;
+    font-size: 1.125em;
+}
+nav ul{
+    text-align: center;
+}
+nav{
+    background-color: #532d24;
+    padding: 10px;
+}
+nav a{
+    color: white !important;
+    font-weight: normal;
+    text-decoration: none;
+}
+.banner  {
+    border-radius: 10px;
+}
+.detalheBanner{
+    border-radius: 50%;
+    background-color: rgba(83,44,36,0.5);
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    margin:20px 40px;
+    
+}
+.detalheBanner p {
+    text-align: center;
+    margin: 25% 15%;
+    font-size:1.3em;
+    color: white
+}
+.titulo, .tituloPrincipal{
+    color: #532d24 ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tituloPrincipal{
+    font-size: 3.5em;
+    text-align: center;
+}
+.titulo{
+    font-size: 1.875em;
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    font-size: 0.875em;
+}
+a{
+    text-decoration: underline;
+    color: #532d24;
+    font-weight: bold;
+}
+form{
+    width: 70%;
+    border-radius: 10px;
+    border:1px solid #532d24 ;
+    background-color: ivory;
+    padding: 10px;
+    margin-top: 20px;
+}
+input, textarea, label{
+    width: 98%;
+    border-radius: 5px;
+}
+input{
+    height: 25px;
+}
+.tipo, .tipo3{
+    display: inline-block;
+    width: 22% ;
+    vertical-align: text-top;
+    font-size: 1em;
+}
+.tipo3{
+    text-align: center;
+    margin: 0 auto ; 
+}
+.aviso{
+    background-color: #532d24 ;
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    color:white
+}
+input[type = 'submit']{
+    height: 30px;
+    background-color: #532d24 ;
+    font-weight: bold;
+    font-size: 1em;
+}
+footer{
+    border-top: 2px solid #532d24;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+footer p{
+    margin-top: 10px;
+    text-align: center;
+}

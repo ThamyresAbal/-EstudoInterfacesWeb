@@ -3,7 +3,7 @@
 *{
     margin: 10px 50px 20px 50px !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 1px solid black !important;
+    /* border: 1px solid black !important; */
     line-height: 20px;
 }
 body{
@@ -61,11 +61,14 @@ hr{
 }
 .tipo, .tipo3{
     display: inline-block;
-    width: 32% ;
+    width: 22% ;
+    vertical-align: text-top;
     font-size: 1em;
+    align-content: space-between !important;
 }
 .tipo3{
     text-align: center;
+    margin: 0 auto ; 
 }
 .aviso{
     background-color: #dcb0a1;
@@ -81,4 +84,7 @@ input[type = 'submit']{
 }
 p{
     font-size: 1em ;
+}
+.imgs{
+    margin: 0 !important;
 }
