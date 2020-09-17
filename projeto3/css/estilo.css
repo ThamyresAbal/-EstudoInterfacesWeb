@@ -99,18 +99,10 @@ input{
     display: inline-block;
     width: 22% ;
     vertical-align: text-top;
-    font-size: 1em;
 }
 .tipo3{
     text-align: center;
     margin: 0 auto ; 
-}
-.aviso{
-    background-color: #532d24 ;
-    text-align: center;
-    padding: 5px;
-    font-size: 1em;
-    color:white
 }
 input[type = 'submit']{
     height: 30px;
@@ -125,5 +117,18 @@ footer{
 }
 footer p{
     margin-top: 10px;
-    text-align: center;
+    text-align: right;
+}
+.direitaIndex, .esquerdaIndex{
+    display: inline-block;
+    width: 49%;
+    vertical-align: text-top;
+}
+.direitaConteudo, .direitaImg, .esquerdaImg, .esquerdaMapa{
+    display: inline-block;
+    vertical-align: text-top;
+}
+.direitaConteudo, .esquerdaMapa{
+    width: 69%;
+    margin-top :10px;
 }
